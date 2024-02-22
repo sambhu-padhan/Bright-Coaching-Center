@@ -8,8 +8,13 @@ this is a spring boot basic app biult using,
 
 
 To successfully run this project , please follow these as a reference,-
+
   server.port= 8081
+  
   spring.datasource.url=jdbc:mysql://localhost:3306/BCC_db_schema
+  
   spring.datasource.username=root
+  
   spring.datasource.password=root
+  
   spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
