@@ -1,0 +1,90 @@
+header {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 2.5em;
+	padding: 10px 0px;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row-reverse;
+	background-color: green;
+	padding-right: 5px;
+}
+
+h4 {
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbutton:hover {
+	background-color: grey;
+	color: white;
+	cursor: pointer;
+}
+
+h2 {
+	margin-right: 20px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.container {
+	background-color: rgb(199, 170, 170);
+	width: fit-content;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+#studentTable {
+	background-color: aqua;
+}
+
+.container h3 {
+	width: fit-content;
+	color: white;
+	margin: 0px;
+	padding: 10px;
+}
+
+
+
+
+
+#studentTable {
+	width: 100%; /* Full-width */
+	border-collapse: collapse; /* Collapse borders */
+	margin: 25px 0; /* Add some margin around the table */
+	font-size: 0.9em; /* Adjust font size */
+	font-family: sans-serif; /* Change the font family */
+	min-width: 400px; /* Minimum width */
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); /* Shadow for 3D effect */
+}
+
+#studentTable thead tr {
+	background-color: #009879; /* Background color for header */
+	color: white; /* Text color for header */
+	text-align: left; /* Align text to the left */
+}
+
+#studentTable th, #studentTable td {
+	padding: 12px 15px; /* Padding inside each cell */
+}
+
+#studentTable tbody tr {
+	border-bottom: 1px solid #dddddd; /* Border between rows */
+}
+
+#studentTable tbody tr:nth-of-type(even) {
+	background-color: #f3f3f3; /* Background for even rows */
+}
+
+#studentTable tbody tr:last-of-type {
+	border-bottom: 2px solid #009879; /* Border for the last row */
+}
+
+#studentTable tbody tr.active-row {
+	font-weight: bold; /* Bold font for active row */
+	color: #009879; /* Color for active row */
+}
