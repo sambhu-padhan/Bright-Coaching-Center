@@ -129,17 +129,17 @@
 				<form action="/addNewQuestion" method="post">
 					<h3>Add New Question</h3>
 					<label for="addquestionname">questionname : </label> 
-					<input	type="text" name="questionname" id="quesname">
+					<input	type="text" name="questionname" id="quesname" required="required">
 					 <label	for="addquestionans">questionanswer : </label>
-					  <input type="text" name="questionans" id="questionans">
+					  <input type="text" name="questionans" id="questionans" required="required">
 					   <label for="addquestionansoption1">Option-1	: </label>
-					    <input type="text" name="questionansoption1" id="questionansoption1">
+					    <input type="text" name="questionansoption1" id="questionansoption1" required="required">
 					     <label	for="addquestionansoption2">Option-2 : </label> 
-						<input type="text"	name="questionansoption2" id="questionansoption2">
+						<input type="text"	name="questionansoption2" id="questionansoption2" required="required">
 						 <label for="addquestionansoption3">Option-3 : </label> 
-						 <input type="text" name="questionansoption3" id="questionansoption3"> 
+						 <input type="text" name="questionansoption3" id="questionansoption3" required="required"> 
 						 <label	for="addquestionansoption4">Option-4 : </label> 
-						 <input type="text"	name="questionansoption4" id="questionansoption4">
+						 <input type="text"	name="questionansoption4" id="questionansoption4" required="required">
 						 
 						  <div>
 							<button type="submit" id="submitButton" class="btn">Submit</button>
